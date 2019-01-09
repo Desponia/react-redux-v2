@@ -10,7 +10,7 @@ class BookList extends Component {
         return this.props.books.map((book) => {
             return (
                 <li key={book.title} className="list-group-item"
-                    onClick={() => {this.props.selectBook(book)}}>{book.title}</li>
+                    onClick={() => {console.log('----'); this.props.selectBook(book)}}>{book.title}</li>
             )
         })
     }
