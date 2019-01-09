@@ -7,7 +7,7 @@ export default (state = null, action) => {
     switch (action.type) {
         case 'BOOK_SELECTED':
             // 언제나 원본 object를 반환해야 함
-            console.log('action.payload --> ', action.payload);
+            // console.log('action.payload --> ', action.payload);
             return action.payload
     }
     return state
