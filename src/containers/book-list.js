@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import mapStateToProps from "react-redux/es/connect/mapStateToProps";
+// import mapStateToProps from "react-redux/es/connect/mapStateToProps";
 
-export default class BookList extends Component {
+class BookList extends Component {
     renderList() {
         return this.props.books.map((book) => {
             return (
